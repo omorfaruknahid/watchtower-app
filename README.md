@@ -1,5 +1,5 @@
 Excited to share my latest web application: Watch Tower! 
-I built Watch Tower—a modern, high-precision web app featuring both a Stopwatch and a Timer, built with a focus on real-time accuracy, sleek UI design, and responsive interaction.
+I built Watch Tower a modern, high-precision web app featuring both a Stopwatch and a Timer, built with a focus on real-time accuracy, sleek UI design, and responsive interaction.
 
 Key Highlights & Engineering Details:
  Modern Tech Stack: Powered by React (utilizing hooks like useState, useEffect, and useRef for optimal DOM and state control) and styled with Tailwind CSS.
