@@ -1,16 +1,17 @@
-# React + Vite
+Excited to share my latest web application: Watch Tower! 
+I built Watch Tower—a modern, high-precision web app featuring both a Stopwatch and a Timer, built with a focus on real-time accuracy, sleek UI design, and responsive interaction.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Key Highlights & Engineering Details:
+ Modern Tech Stack: Powered by React (utilizing hooks like useState, useEffect, and useRef for optimal DOM and state control) and styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+High Precision: Built around precise delta-time math (Date.now() - startTime) rather than naive interval increments, ensuring flawless accuracy even during tab throttling or background switches.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Reactive Neon Ambient UI: Styled with a dark slate/rock texture aesthetic featuring dynamic glowing state borders:
 
-## React Compiler
+  Amber Glow: Indicates active stopwatch tracking.
+  Rose Glow & Pulse: Signals paused/stopped states.
+  Emerald Wave: Triggers when the timer target is reached.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dynamic Timer Customization: Offers quick preset controls (1m, 5m, 15m) and custom minute adjustments (with input validation enforcing min/max limits).
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Ultra-Responsive: Optimized grid structure with unified card containers that scale smoothly across mobile and desktop displays.
